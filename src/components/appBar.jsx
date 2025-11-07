@@ -4,7 +4,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
@@ -15,6 +14,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { useState } from 'react';
 import { LightMode, DarkMode } from '@mui/icons-material';
 import { Link } from 'react-scroll';
+
 
 const drawerWidth = 240;
 
@@ -85,7 +85,8 @@ export default function NavBar({ mode, handleToggle, navItems }) {
             <MenuIcon />
           </IconButton>
           <img
-            src="/src/assets/images/logo.png"
+            src="/public/logo.png"
+            alt='Logo'
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           ></img>
           <Box
