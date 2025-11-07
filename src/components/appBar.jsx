@@ -64,7 +64,6 @@ export default function NavBar({ mode, handleToggle, navItems }) {
         sx={{
           backgroundColor: 'background.paper',
           paddingX: { md: 6, sm: 2 },
-          // paddingY: 1,
           color: 'text.primary',
         }}
       >
