@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #1976d2 */
+body {
+  font-family: 'Open Sans';
+}
+
+@font-face {
+  font-family: 'Shadow Into Light';
+  src: url('./assets/webFonts/ShadowsIntoLight-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/webFonts/OpenSans_Condensed-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/webFonts/OpenSans_Condensed-Medium.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/webFonts/OpenSans_Condensed-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/webFonts/OpenSans_SemiCondensed-Italic.ttf');
+  font-style: italic;
+}
