@@ -3,8 +3,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import about from '/src/assets/images/about-1.jpg';
-import Button from '@mui/material/Button';git status
-
+import Button from '@mui/material/Button';
 import { motion } from 'framer-motion';
 //react hooks
 import { useTheme } from '@mui/material/styles';
@@ -12,6 +11,7 @@ import { useTheme } from '@mui/material/styles';
 export default function Info() {
   const theme = useTheme();
 
+  
   const handleViewResume =()=>{
      window.open("/Kholoud_Mahmoud_React_Developer_CV.pdf", "_blank");
 

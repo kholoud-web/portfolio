@@ -7,6 +7,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import { Link } from 'react-scroll';
+  
+
+
 
 export default function Hero() {
   return (
@@ -40,7 +44,7 @@ export default function Hero() {
             backgroundColor: (theme) =>
               theme.palette.mode === 'dark'
                 ? 'rgba(0, 0, 0, 0.75)'
-                : 'rgba(0, 0, 0, 0.45)',
+                : 'rgba(0, 0, 0, 0.53)',
             zIndex: 1,
           }}
         />
@@ -154,6 +158,7 @@ export default function Hero() {
           transition={{ duration: 5 }}
           style={{ zIndex: 2, textAlign: 'center' }}
         >
+        <Link to="contact" smooth={true} duration={500} >
           <Button
             variant="contained"
             sx={{
@@ -167,6 +172,7 @@ export default function Hero() {
           >
             Get Free Quote
           </Button>
+        </Link>
         </motion.div>
       </Box>
     </Container>
