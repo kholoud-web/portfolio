@@ -5,6 +5,19 @@ import image5 from '../assets/images/gallery/img-5.jpg';
 
 
 const Projects = [
+    {
+    title: 'Medical APP',
+    image: image5,
+    tech: 'React, API, Redux , Tailwind Css , .net core',
+    code: 'https://github.com/kholoud-web/Medical-App.git',
+  },
+    {
+    title: 'Educational APP',
+    image: image2,
+    tech: 'React, API, Redux , Tailwind Css , .net core',
+    demo: 'edunexa-v1.vercel.app',
+    code: 'https://github.com/lamadarawsheh/EduNEXA.git',
+  },
   {
     title: 'Weather App',
     image: image1,
@@ -32,7 +45,7 @@ const Projects = [
     tech: 'React , Material Ui',
     demo: 'https://spacetourism2.netlify.app',
     code: 'https://github.com/kholoud-web/spaceTourism2.git',
-   }
+   },
 ];
 
 export default Projects;

@@ -13,7 +13,7 @@ export default function Info() {
 
   
   const handleViewResume =()=>{
-     window.open("/Kholoud_Mahmoud_React_Developer_CV.pdf", "_blank");
+     window.open("/public/kholoud cv.pdf", "_blank");
 
   }
 
@@ -91,7 +91,6 @@ export default function Info() {
             <Box sx={{ p: 2 }}>
               {[
                 { label: 'Name', value: 'Kholoud Mahmoud' },
-                { label: 'Age', value: '35' },
                 { label: 'Country', value: 'Alexandria, Egypt' },
                 { label: 'Experience', value: 'Junior' },
                 { label: 'Email', value: 'kholud.mahmoud62@gmail.com' },
