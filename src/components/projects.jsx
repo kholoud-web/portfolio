@@ -9,6 +9,7 @@ const Projects = [
     title: 'Furniture E-commerce App',
     image: image3,
     tech: 'React, Json File, useContext, Tailwind Css ',
+    demo :"furnirof.netlify.app",
     code: 'https://github.com/kholoud-web/E-commerce-Furniture.git',
   },
   
@@ -26,12 +27,12 @@ const Projects = [
     demo: 'https://verdant-gumption-6ff00c.netlify.app',
     code: 'https://github.com/kholoud-web/full-weather-app.git',
   },
-  {
-    title: 'E-commerce App',
+    {
+    title: 'Real Estate App',
     image: image2,
-    tech: 'React, API, useContext , Material Ui',
-    demo: 'https://iridescent-sopapillas-7f4abf.netlify.app',
-    code: 'https://github.com/kholoud-web/ecommerce-react-app.git',
+    tech: 'React, TypeScript, Tailwind Css , Redux , API , Ai',
+    demo: 'realestatesyste.netlify.app',
+    code: 'https://github.com/kholoud-web/Real-estate-syetem.git',
   },
    {
       title: 'Space Tourism',
