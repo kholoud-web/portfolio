@@ -6,11 +6,12 @@ import image5 from '../assets/images/gallery/img-5.jpg';
 
 const Projects = [
     {
-    title: 'Medical APP',
+    title: 'Furniture E-commerce App',
     image: image5,
-    tech: 'React, API, Redux , Tailwind Css , .net core',
-    code: 'https://github.com/kholoud-web/Medical-App.git',
+    tech: 'React, Json File, useContext, Tailwind Css ',
+    code: 'https://github.com/kholoud-web/E-commerce-Furniture.git',
   },
+  
     {
     title: 'Educational APP',
     image: image2,
@@ -32,13 +33,6 @@ const Projects = [
     demo: 'https://iridescent-sopapillas-7f4abf.netlify.app',
     code: 'https://github.com/kholoud-web/ecommerce-react-app.git',
   },
-  {
-    title: 'ToDO list  App',
-    image: image3,
-    tech: 'React , Material Ui',
-    demo: 'https://mellifluous-buttercream-c61302.netlify.app',
-    code: 'https://github.com/kholoud-web/todolist.git',
-  },
    {
       title: 'Space Tourism',
     image: image5,
@@ -46,6 +40,12 @@ const Projects = [
     demo: 'https://spacetourism2.netlify.app',
     code: 'https://github.com/kholoud-web/spaceTourism2.git',
    },
+     {
+    title: 'Medical APP',
+    image: image5,
+    tech: 'React, API, Redux , Tailwind Css , .net core',
+    code: 'https://github.com/kholoud-web/Medical-App.git',
+  },
 ];
 
 export default Projects;
