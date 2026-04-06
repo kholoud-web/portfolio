@@ -7,7 +7,7 @@ import image5 from '../assets/images/gallery/img-5.jpg';
 const Projects = [
     {
     title: 'Furniture E-commerce App',
-    image: image5,
+    image: image3,
     tech: 'React, Json File, useContext, Tailwind Css ',
     code: 'https://github.com/kholoud-web/E-commerce-Furniture.git',
   },
