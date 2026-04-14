@@ -34,16 +34,10 @@ const Projects = [
     demo: 'https://realestatesyste.netlify.app',
     code: 'https://github.com/kholoud-web/Real-estate-syetem.git',
   },
-   {
-      title: 'Space Tourism',
-    image: image5,
-    tech: 'React , Material Ui',
-    demo: 'https://spacetourism2.netlify.app',
-    code: 'https://github.com/kholoud-web/spaceTourism2.git',
-   },
+
      {
     title: ' Dar-Real-Estate',
-    image: image1,
+    image: image5,
     tech: 'React, Tailwind Css ',
     code: 'https://github.com/kholoud-web/Real-EstateLangingPage.git',
     demo : 'https://darlangingpage.netlify.app',
