@@ -43,7 +43,7 @@ const Projects = [
    },
      {
     title: ' Dar-Real-Estate',
-    image: image5,
+    image: image1,
     tech: 'React, Tailwind Css ',
     code: 'https://github.com/kholoud-web/Real-EstateLangingPage.git',
     demo : "darlangingpage.netlify.app"
