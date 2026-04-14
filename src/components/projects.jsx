@@ -9,7 +9,7 @@ const Projects = [
     title: 'Furniture E-commerce App',
     image: image3,
     tech: 'React, Json File, useContext, Tailwind Css ',
-    demo :"furnirof.netlify.app",
+    demo :"https://furnirof.netlify.app",
     code: 'https://github.com/kholoud-web/E-commerce-Furniture.git',
   },
   
@@ -17,7 +17,7 @@ const Projects = [
     title: 'Educational APP',
     image: image2,
     tech: 'React, API, Redux , Tailwind Css , .net core',
-    demo: 'edunexa-v1.vercel.app',
+    demo: 'https://edunexa-v1.vercel.app',
     code: 'https://github.com/lamadarawsheh/EduNEXA.git',
   },
   {
@@ -31,7 +31,7 @@ const Projects = [
     title: 'Real Estate App',
     image: image2,
     tech: 'React, TypeScript, Tailwind Css , Redux , API , Ai',
-    demo: 'realestatesyste.netlify.app',
+    demo: 'https://realestatesyste.netlify.app',
     code: 'https://github.com/kholoud-web/Real-estate-syetem.git',
   },
    {
@@ -46,7 +46,7 @@ const Projects = [
     image: image1,
     tech: 'React, Tailwind Css ',
     code: 'https://github.com/kholoud-web/Real-EstateLangingPage.git',
-    demo : 'darlangingpage.netlify.app',
+    demo : 'https://darlangingpage.netlify.app',
   },
 ];
 
