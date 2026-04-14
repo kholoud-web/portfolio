@@ -42,10 +42,11 @@ const Projects = [
     code: 'https://github.com/kholoud-web/spaceTourism2.git',
    },
      {
-    title: 'Medical APP',
+    title: ' Dar-Real-Estate',
     image: image5,
-    tech: 'React, API, Redux , Tailwind Css , .net core',
-    code: 'https://github.com/kholoud-web/Medical-App.git',
+    tech: 'React, Tailwind Css ',
+    code: 'https://github.com/kholoud-web/Real-EstateLangingPage.git',
+    demo : "darlangingpage.netlify.app"
   },
 ];
 
