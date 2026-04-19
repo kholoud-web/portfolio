@@ -40,7 +40,8 @@ export default function Info() {
               loading="lazy" 
               sx={{
                 marginTop:"50px",
-                width: '100%',
+                maxWidth: '100%',
+                maxHeight:"50%",
                 borderRadius: '12px',
                 display: 'block',
                 mx: 'auto',
