@@ -2,7 +2,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import about from '/src/assets/images/about-1.jpg';
+import about from '/src/assets/images/WhatsApp Image 2026-04-19 at 21.14.42.jpeg';
 import Button from '@mui/material/Button';
 import { motion } from 'framer-motion';
 //react hooks
@@ -13,7 +13,7 @@ export default function Info() {
 
   
   const handleViewResume =()=>{
-     window.open("/public/kholoud cv.pdf", "_blank");
+     window.open("/public/kholoud_cvu.pdf", "_blank");
 
   }
 
