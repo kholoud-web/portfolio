@@ -1,13 +1,12 @@
-import image1 from '../assets/images/gallery/img-1.jpg';
-import image2 from '../assets/images/gallery/img-2.jpg';
-import image3 from '../assets/images/gallery/img-3.jpg';
-import image5 from '../assets/images/gallery/img-5.jpg';
-
-
+import dar from '../assets/projects/Dar.png'
+import furino from '../assets/projects/Furino.png'
+import edunexa from '../assets/projects/Edunexa.png'
+import inventory from '../assets/projects/Inventory.png'
+import weather from '../assets/projects/Weather.png'
 const Projects = [
     {
     title: 'Furniture E-commerce App',
-    image: image3,
+    image: furino,
     tech: 'React, Json File, useContext, Tailwind Css ',
     demo :"https://furnirof.netlify.app",
     code: 'https://github.com/kholoud-web/E-commerce-Furniture.git',
@@ -15,29 +14,29 @@ const Projects = [
   
     {
     title: 'Educational APP',
-    image: image2,
+    image: edunexa,
     tech: 'React, API, Redux , Tailwind Css , .net core',
     demo: 'https://edunexa-v1.vercel.app',
     code: 'https://github.com/lamadarawsheh/EduNEXA.git',
   },
   {
     title: 'Weather App',
-    image: image1,
+    image: weather,
     tech: 'React, API, Redux , Material Ui',
     demo: 'https://verdant-gumption-6ff00c.netlify.app',
     code: 'https://github.com/kholoud-web/full-weather-app.git',
   },
     {
-    title: 'Real Estate App',
-    image: image2,
+    title: 'Inventory Dashboard',
+    image: inventory,
     tech: 'React, TypeScript, Tailwind Css , Redux , API , Ai',
-    demo: 'https://realestatesyste.netlify.app',
-    code: 'https://github.com/kholoud-web/Real-estate-syetem.git',
+    demo: 'https://inventoryd.netlify.app',
+    code: 'https://github.com/kholoud-web/Inventory-Dashboard.git',
   },
 
      {
     title: ' Dar-Real-Estate',
-    image: image5,
+    image: dar,
     tech: 'React, Tailwind Css ',
     code: 'https://github.com/kholoud-web/Real-EstateLangingPage.git',
     demo : 'https://darlangingpage.netlify.app',
