@@ -21,7 +21,7 @@ export default function Info() {
     <Box
       component="section"
       id="about"
-      sx={{ py: 6, backgroundColor: 'background.default' }}
+      sx={{ pt: 10,pb:0, backgroundColor: 'background.default' }}
     >
       <Container maxWidth="lg" disableGutters sx={{ px: { xs: 2, md: 6 } }}>
         <Grid container spacing={3}>
@@ -33,25 +33,29 @@ export default function Info() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
+         
             <Box
-              component="img"
-              src={about}
-              alt="Profile"
-              loading="lazy" 
-              sx={{
-                marginTop:"50px",
-                maxWidth: '100%',
-                maxHeight:"50%",
-                borderRadius: '12px',
-                display: 'block',
-                mx: 'auto',
-                border: '8px solid #fff',
-                boxShadow: (t) =>
-                  t.palette.mode === 'light'
-                    ? '0px 0px 30px rgba(0, 0, 0, 0.2)'
-                    : '0px 8px 30px rgba(0, 0, 0, 0.6)',
-              }}
-            />
+  component="img"
+  src={about}
+  alt="Profile"
+  loading="lazy"
+  sx={{
+    mt: { xs: 0, md: '50px' },
+    maxWidth: '100%',
+    width: '100%',
+    maxHeight: { xs: 320, md: '50%' },
+    // objectFit: 'cover',
+    borderRadius: '12px',
+    display: 'block',
+    mx: 'auto',
+    mb: { xs: 1, md: 0 },
+    border: '8px solid #fff',
+    boxShadow: (t) =>
+      t.palette.mode === 'light'
+        ? '0px 0px 30px rgba(0, 0, 0, 0.2)'
+        : '0px 8px 30px rgba(0, 0, 0, 0.6)',
+  }}
+/>
           </Grid>
 
           <Grid
@@ -71,7 +75,7 @@ export default function Info() {
                 p: 2,
               }}
             >
-              Hi Guys!
+              Hello!
             </Typography>
             <Typography
               variant="body1"
@@ -80,6 +84,7 @@ export default function Info() {
                 color: 'text.primary',
                 textAlign: 'justify',
                 p: 2,
+
               }}
             >
               I'm <strong>kholoud mahmoud</strong>, a passionate developer with
