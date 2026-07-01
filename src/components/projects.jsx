@@ -8,7 +8,7 @@ const Projects = [
     title: 'Furniture E-commerce App',
     image: furino,
     tech: 'React, Json File, useContext, Tailwind Css ',
-    demo :"https://furnirof.netlify.app",
+    demo :"https://e-commerce-furniture-zeta.vercel.app",
     code: 'https://github.com/kholoud-web/E-commerce-Furniture.git',
   },
   
@@ -23,14 +23,14 @@ const Projects = [
     title: 'Weather App',
     image: weather,
     tech: 'React, API, Redux , Material Ui',
-    demo: 'https://verdant-gumption-6ff00c.netlify.app',
+    demo: 'https://full-weather-app-beta.vercel.app',
     code: 'https://github.com/kholoud-web/full-weather-app.git',
   },
     {
     title: 'Inventory Dashboard',
     image: inventory,
     tech: 'React, TypeScript, Tailwind Css , Redux , API , Ai',
-    demo: 'https://inventoryd.netlify.app',
+    demo: 'https://inventory-dashboard-two-rho.vercel.app',
     code: 'https://github.com/kholoud-web/Inventory-Dashboard.git',
   },
 
@@ -39,7 +39,7 @@ const Projects = [
     image: dar,
     tech: 'React, Tailwind Css ',
     code: 'https://github.com/kholoud-web/Real-EstateLangingPage.git',
-    demo : 'https://darlangingpage.netlify.app',
+    demo : 'https://real-estate-langing-page.vercel.app',
   },
 ];
 
